@@ -4,6 +4,6 @@ server <- plumb("plumber.R")
 
 server$run(
   host = '0.0.0.0',
-  port = '8080'),
+  port = 8080,
   docs=TRUE
 )
