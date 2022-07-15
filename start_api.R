@@ -1,0 +1,6 @@
+# This file is used to start the API after e.g. checking if the correct
+# environmental variables are set, log startup messages, connect to databases, etc
+# You can use run_api() directly without this script though.
+
+message("Starting DWD WBI API ", packageVersion("wbiapi"))
+wbiapi::run_api()
