@@ -1,6 +1,26 @@
-# This file is used to start the API after e.g. checking if the correct
-# environmental variables are set, log startup messages, connect to databases, etc
-# You can use run_api() directly without this script though.
+#* @apiTitle Waldbrandgefahrenindex API
 
-message("Starting DWD WBI API ", packageVersion("wbiapi"))
-wbiapi::run_api()
+#* @preempt __first__
+#* @get /
+function(req, res) {
+  res$status <- 302
+  res$setHeader("Location", "./__docs__/")
+  res$body <- "Redirecting..."
+  res
+}
+
+#* Daily Waldbrandgefahrenindex geojson
+#* @get /wbi_geojson
+function() {
+  geo_file <- "https://raw.githubusercontent.com/marcosci/dwd_wbi_scraper/main/data/wbi_current.geojson"
+  geojson_read(geo_file)
+}
+
+#' Daily Waldbrandgefahrenindex CSV
+#* @serializer csv
+#* @get /wbi_csv
+function() {
+  geo_file <- "https://raw.githubusercontent.com/marcosci/dwd_wbi_scraper/main/data/wbi_current.csv"
+  read.csv(geo_file)
+}
+
