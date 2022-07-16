@@ -1,4 +1,5 @@
 library(plumber)
+library(readr)
 
 server <- plumb("plumber.R")
 
