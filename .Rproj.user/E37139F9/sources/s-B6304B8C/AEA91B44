@@ -1,7 +1,7 @@
 {
     "id": "AEA91B44",
-    "path": "~/Documents/code/viz/dwdwbiapi/obuild",
-    "project_path": "obuild",
+    "path": "~/Documents/code/viz/dwdwbiapi/onbuild",
+    "project_path": "onbuild",
     "type": "dockerfile",
     "hash": "1672957339",
     "contents": "",
@@ -20,7 +20,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1657997936591,
+    "last_content_update": 1657997936,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -3,7 +3,7 @@
     "path": "~/Documents/code/viz/dwdwbiapi/init.R",
     "project_path": "init.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "2410349229",
     "contents": "",
     "dirty": false,
     "created": 1657993197317.0,
@@ -16,11 +16,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1657995414,
+    "lastKnownWriteTime": 1657998168,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1657995414088,
+    "last_content_update": 1657998168013,
     "read_only": false,
     "read_only_alternatives": []
 }
