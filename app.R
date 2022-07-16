@@ -1,7 +1,7 @@
 library(plumber)
 library(readr)
 
-port <- Sys.getenv('Port')
+port <- Sys.getenv('PORT')
 server <- plumb("plumber.R")
 
 server$run(
