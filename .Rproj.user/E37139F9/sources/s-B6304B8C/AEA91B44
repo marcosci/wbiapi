@@ -1,9 +1,9 @@
 {
     "id": "AEA91B44",
-    "path": "~/Documents/code/viz/dwdwbiapi/onbuild",
-    "project_path": "onbuild",
+    "path": "~/Documents/code/viz/dwdwbiapi/Dockerfile",
+    "project_path": "Dockerfile",
     "type": "dockerfile",
-    "hash": "1672957339",
+    "hash": "1677237598",
     "contents": "",
     "dirty": false,
     "created": 1657996268896.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "1,17",
+        "cursorPosition": "8,65",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1657997936,
+    "lastKnownWriteTime": 1658048154,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1657997936,
+    "last_content_update": 1658048154477,
     "read_only": false,
     "read_only_alternatives": []
 }
